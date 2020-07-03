@@ -1,0 +1,81 @@
+.dropdown_main_div{
+    width: 90vw;
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.dropdown_main_div ul li {
+    /* text-decoration: none; */
+    font-family: sans-serif;
+    list-style-type: none;
+    padding: 1%;
+    color:#0056b3;
+}
+/* .dropdown_main_div ul li a{
+    color: navy !important;
+} */
+.dropdown_Men_Main_div{
+    /* background-color: red; */
+    width: 20vw;
+}
+.dropdown_kids_Main_div{
+    /* background-color: red; */
+    width: 20vw;
+}
+.dropdown_Women_Main_div{
+    /* background-color: black; */
+    width: 20vw;
+}
+.dropdown_Men_title_div{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.dropdown_Men_title_div ul li{
+    list-style-type: none;
+    /* text-decoration: none; */
+
+}
+.dropdown_Women_title_div ul li{
+    list-style-type: none;
+    /* text-decoration: none; */
+
+}
+.dropdown_kids_title_div ul li{
+    list-style-type: none;
+    /* text-decoration: none; */
+
+}
+.dropdown_kids_title_div{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.dropdown_Women_title_div{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.navibarBrand_name_div{
+    position:absolute;
+    left:40%;
+    bottom: 0%;
+    top: 1%;
+    z-Index:100;
+    font-Weight:bold;
+    font-family: Old Standard TT;
+}
+
+@media only screen and (max-width: 740px) {
+   
+    #basic-nav-dropdown{
+        display: none;
+    }
+}
+@media only screen and (min-width:740px){
+    .ant-dropdown-link{
+        display: none;
+    }
+}

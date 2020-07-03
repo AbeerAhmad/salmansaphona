@@ -1,0 +1,38 @@
+.footer_main_div{
+    overflow: hidden;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.65);
+    /* text-align: center; */
+    background-color:white;
+    font-size: 15px;
+    padding: 40px;
+    font-family: 'Old Standard TT';
+}
+.aboutUs_Col_div .aboutus_tilte_ul{
+    list-style-type:georgian;
+}
+.Help_Col_div .Help_tilte_ul{
+    list-style-type:georgian;
+}
+.Social_Col_div .Social_tilte_ul{
+    list-style-type:georgian;
+}
+.aboutUs_Col_div ul{
+    list-style-type: none;
+}
+.aboutUs_Col_div ul li{
+    padding: 10px;
+}
+.Help_Col_div ul{
+    list-style-type: none;
+    /* padding: 10px; */
+}
+.Help_Col_div ul li{
+    padding: 10px;
+}
+.Social_Col_div ul{
+    list-style-type: none;
+}
+.Social_Col_div ul li{
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+.FCD_main_div {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 10px 10px 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.FCD_product_div {
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.FCD_product_div .FCD_desc_div {
+  font-weight: bolder;
+  font-family: OLD STANDARD TT;
+  padding-top: 10px;
+}
+.FCD_product_div .FCD_price_div {
+  font-weight: bolder;
+  font-family: OLD STANDARD TT;
+}

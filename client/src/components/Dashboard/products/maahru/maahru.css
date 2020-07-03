@@ -1,0 +1,35 @@
+.cart_btn_span {
+  display: none;
+  position: absolute;
+  top: 70%;
+  right: 25%;
+  color: white;
+  font-size: 20px;
+  font-family: "OLD STANDARD TT";
+  font-weight: bold;
+  z-index: 1000;
+  cursor: pointer;
+  background-color: black;
+  border: 0px;
+}
+.FCD_product_div:hover .cart_btn_span {
+  display: block;
+}
+.cart_btn_span:hover {
+  background-color: black;
+}
+.searchProduct_input {
+  width: 250px !important;
+  box-sizing: border-box;
+  border: 2px solid black !important;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("./search.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 5px 40px !important;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: none;
+}
